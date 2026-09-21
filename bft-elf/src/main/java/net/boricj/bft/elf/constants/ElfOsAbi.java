@@ -19,6 +19,8 @@ package net.boricj.bft.elf.constants;
 public enum ElfOsAbi {
 	/** UNIX System V ABI. */
 	ELFOSABI_NONE((byte) 0),
+	/** Cell OS Lv-2 ABI. */
+	ELFOSABI_CELL_LV2((byte) 102),
 	;
 
 	private final byte value;

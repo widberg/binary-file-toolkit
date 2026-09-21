@@ -127,6 +127,8 @@ public enum ElfRelocationType_ppc64 implements ElfRelocationType {
 	R_PPC64_PLTGOT16_HI(54),
 	/** Procedure Linkage Table Global Offset Table 32-bit with bits 16 through 31 with adjustment for the carry. */
 	R_PPC64_PLTGOT16_HA(55),
+	/** Cell OS Lv-2 32-bit Table of Contents address. */
+	R_PPC64_TOC32(107),
 	;
 
 	private final int value;
